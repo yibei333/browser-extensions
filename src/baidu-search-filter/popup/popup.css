@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: max-content;
+  padding: 12px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin-top: 4px;
+  padding: 0 12px;
+}
+
+li label {
+  padding-left: 4px;
+  vertical-align: middle;
+  display: inline;
+}
+
+li:last-child {
+  margin-bottom: 4px;
+}
+
+input {
+  vertical-align: middle;
+}
