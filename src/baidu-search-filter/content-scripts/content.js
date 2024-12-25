@@ -39,7 +39,7 @@ function hidden_ad() {
 
 function hidden_csdn() {
     let items = [...document.querySelectorAll("div[mu]")];
-    items.filter(x => x.getAttribute('mu').indexOf('https://blog.csdn.net') >= 0).forEach(x => {
+    items.filter(x => x.getAttribute('mu').indexOf('https://blog.csdn.net') >= 0 || x.getAttribute('mu').indexOf('https://m.blog.csdn.net') >= 0).forEach(x => {
         processClass(x, data.csdn);
     });
 }
