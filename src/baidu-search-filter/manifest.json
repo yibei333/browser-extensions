@@ -1,8 +1,9 @@
 {
-    "name": "baidu search filter",
+    "name": "百度搜索结果过滤",
     "version": "1.0.0.0",
+    "default_locale": "zh_CN",
     "manifest_version": 3,
-    "description": "baidu search result filter",
+    "description": "过滤百度搜索结果中的广告及特定的网址.",
     "permissions": [
         "tabs",
         "webNavigation",
